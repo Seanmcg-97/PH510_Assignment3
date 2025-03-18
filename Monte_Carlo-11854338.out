@@ -1,0 +1,70 @@
+===================================================================================
+SLURM Job ID:            11854338
+Submit time:             Mon Mar 17 04:27:53 GMT 2025 (Unix Epoch time: 1742185673)
+Start time:              Mon Mar 17 04:27:54 GMT 2025 (Unix Epoch time: 1742185674)
+No. nodes:               1
+No. tasks:               4
+Job name:                Monte_Carlo_test
+Account:                 teaching
+QoS:                     teaching
+Partition (queue):       teaching
+Submit directory:        /users/isb20124/PH510/Assignment_3
+Script name:             /users/isb20124/PH510/Assignment_3/Task1_1.sh
+Master node:             wee21
+Nodes used:              wee21
+Task distribution:       block:block
+===================================================================================
+
+<frozen importlib._bootstrap>:488: RuntimeWarning: suspicious MPI execution environment
+Your environment has OMPI_COMM_WORLD_SIZE=4 set, but mpi4py was built with MPICH.
+You may be using `mpiexec` or `mpirun` from a different MPI implementation.
+<frozen importlib._bootstrap>:488: RuntimeWarning: suspicious MPI execution environment
+Your environment has OMPI_COMM_WORLD_SIZE=4 set, but mpi4py was built with MPICH.
+You may be using `mpiexec` or `mpirun` from a different MPI implementation.
+<frozen importlib._bootstrap>:488: RuntimeWarning: suspicious MPI execution environment
+Your environment has OMPI_COMM_WORLD_SIZE=4 set, but mpi4py was built with MPICH.
+You may be using `mpiexec` or `mpirun` from a different MPI implementation.
+<frozen importlib._bootstrap>:488: RuntimeWarning: suspicious MPI execution environment
+Your environment has OMPI_COMM_WORLD_SIZE=4 set, but mpi4py was built with MPICH.
+You may be using `mpiexec` or `mpirun` from a different MPI implementation.
+Evaluating integral of x^2 between [2] and [4]: (Integral: 22.666141559445222, Var: 0.00012109571280606076, Err: 0.022008699444179863)
+Evaluating integral of x^2 between [2] and [4]: (Integral: 22.666141559445222, Var: 0.00012109571280606076, Err: 0.022008699444179863)
+Evaluating integral of x^2 between [2] and [4]: (Integral: 22.666141559445222, Var: 0.00012109571280606076, Err: 0.022008699444179863)
+Evaluating integral of x^2 between [2] and [4]: (Integral: 22.666141559445222, Var: 0.00012109571280606076, Err: 0.022008699444179863)
+Expected value for 2D Circle radius of 1: [3.13464000e+00 1.69537004e-06 5.20825505e-03]
+Actual value: 3.141592653589793
+Expected value for 3D Sphere radius of 2: [3.35110400e+01 2.49442568e-06 1.01080006e-01]
+Actual value: 33.510321638291124
+Expected value for 4D Hypersphere radius of 3: [4.01047200e+02 2.13690698e-06 1.89451396e+00]
+Actual value: 399.718978244119
+Expected value for 5D Hpersphere radius of 4: [5.42441472e+03 1.38136508e-06 3.85127182e+01]
+Actual value:5390.119950248268
+Expected value for 2D Circle radius of 1: [3.13464000e+00 1.69537004e-06 5.20825505e-03]
+Actual value: 3.141592653589793
+Expected value for 3D Sphere radius of 2: [3.35110400e+01 2.49442568e-06 1.01080006e-01]
+Actual value: 33.510321638291124
+Expected value for 4D Hypersphere radius of 3: [4.01047200e+02 2.13690698e-06 1.89451396e+00]
+Actual value: 399.718978244119
+Expected value for 5D Hpersphere radius of 4: [5.42441472e+03 1.38136508e-06 3.85127182e+01]
+Actual value:5390.119950248268
+Expected value for 2D Circle radius of 1: [3.13464000e+00 1.69537004e-06 5.20825505e-03]
+Actual value: 3.141592653589793
+Expected value for 3D Sphere radius of 2: [3.35110400e+01 2.49442568e-06 1.01080006e-01]
+Actual value: 33.510321638291124
+Expected value for 4D Hypersphere radius of 3: [4.01047200e+02 2.13690698e-06 1.89451396e+00]
+Actual value: 399.718978244119
+Expected value for 5D Hpersphere radius of 4: [5.42441472e+03 1.38136508e-06 3.85127182e+01]
+Actual value:5390.119950248268
+Expected value for 2D Circle radius of 1: [3.13464000e+00 1.69537004e-06 5.20825505e-03]
+Actual value: 3.141592653589793
+Expected value for 3D Sphere radius of 2: [3.35110400e+01 2.49442568e-06 1.01080006e-01]
+Actual value: 33.510321638291124
+Expected value for 4D Hypersphere radius of 3: [4.01047200e+02 2.13690698e-06 1.89451396e+00]
+Actual value: 399.718978244119
+Expected value for 5D Hpersphere radius of 4: [5.42441472e+03 1.38136508e-06 3.85127182e+01]
+Actual value:5390.119950248268
+===================================================================================
+SLURM job 11854338 ended:     Mon Mar 17 04:25:11 GMT 2025 (Unix Epoch time: 1742185511)
+This is an estimated end time using the 'date' command from node wee21.hpc.strath.ac.uk
+For accurate timings, use 'sacct -j 11854338 -X --format=Submit,Start,End,Elapsed'
+======================================================================================

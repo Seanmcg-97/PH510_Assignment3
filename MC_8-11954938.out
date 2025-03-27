@@ -1,0 +1,222 @@
+===================================================================================
+SLURM Job ID:            11954938
+Submit time:             Thu Mar 27 02:02:13 GMT 2025 (Unix Epoch time: 1743040933)
+Start time:              Thu Mar 27 02:02:20 GMT 2025 (Unix Epoch time: 1743040940)
+No. nodes:               2
+No. tasks:               8
+Job name:                Monte_Carlo_test
+Account:                 teaching
+QoS:                     teaching
+Partition (queue):       teaching
+Submit directory:        /users/isb20124/PH510/Assignment_3
+Script name:             /users/isb20124/PH510/Assignment_3/Monte_Carlo_8.sh
+Master node:             wee12
+Nodes used:              wee[12,18]
+Task distribution:       block:block
+===================================================================================
+
+<frozen importlib._bootstrap>:488: RuntimeWarning: suspicious MPI execution environment
+Your environment has OMPI_COMM_WORLD_SIZE=8 set, but mpi4py was built with MPICH.
+You may be using `mpiexec` or `mpirun` from a different MPI implementation.
+<frozen importlib._bootstrap>:488: RuntimeWarning: suspicious MPI execution environment
+Your environment has OMPI_COMM_WORLD_SIZE=8 set, but mpi4py was built with MPICH.
+You may be using `mpiexec` or `mpirun` from a different MPI implementation.
+The integral of x^2 between [2] and [4]: (integral: 22.62919, Var: 0.0001200746, Err: 0.02192)
+The integral of x^2 between [2] and [4]: (integral: 22.62919, Var: 0.0001200746, Err: 0.02192)
+<frozen importlib._bootstrap>:488: RuntimeWarning: suspicious MPI execution environment
+Your environment has OMPI_COMM_WORLD_SIZE=8 set, but mpi4py was built with MPICH.
+You may be using `mpiexec` or `mpirun` from a different MPI implementation.
+<frozen importlib._bootstrap>:488: RuntimeWarning: suspicious MPI execution environment
+Your environment has OMPI_COMM_WORLD_SIZE=8 set, but mpi4py was built with MPICH.
+You may be using `mpiexec` or `mpirun` from a different MPI implementation.
+<frozen importlib._bootstrap>:488: RuntimeWarning: suspicious MPI execution environment
+Your environment has OMPI_COMM_WORLD_SIZE=8 set, but mpi4py was built with MPICH.
+You may be using `mpiexec` or `mpirun` from a different MPI implementation.
+<frozen importlib._bootstrap>:488: RuntimeWarning: suspicious MPI execution environment
+Your environment has OMPI_COMM_WORLD_SIZE=8 set, but mpi4py was built with MPICH.
+You may be using `mpiexec` or `mpirun` from a different MPI implementation.
+<frozen importlib._bootstrap>:488: RuntimeWarning: suspicious MPI execution environment
+Your environment has OMPI_COMM_WORLD_SIZE=8 set, but mpi4py was built with MPICH.
+You may be using `mpiexec` or `mpirun` from a different MPI implementation.
+<frozen importlib._bootstrap>:488: RuntimeWarning: suspicious MPI execution environment
+Your environment has OMPI_COMM_WORLD_SIZE=8 set, but mpi4py was built with MPICH.
+You may be using `mpiexec` or `mpirun` from a different MPI implementation.
+The integral of x^2 between [2] and [4]: (integral: 22.62919, Var: 0.0001200746, Err: 0.02192)
+The integral of x^2 between [2] and [4]: (integral: 22.62919, Var: 0.0001200746, Err: 0.02192)
+The integral of x^2 between [2] and [4]: (integral: 22.62919, Var: 0.0001200746, Err: 0.02192)
+The integral of x^2 between [2] and [4]: (integral: 22.62919, Var: 0.0001200746, Err: 0.02192)
+The integral of x^2 between [2] and [4]: (integral: 22.62919, Var: 0.0001200746, Err: 0.02192)
+The integral of x^2 between [2] and [4]: (integral: 22.62919, Var: 0.0001200746, Err: 0.02192)
+
+Calculated area for a 2D circle via MC, r = 1: [3.15536e+00 1.66570e-06 5.16000e-03]
+Expected area for a 2D circle: 3.141592653589793
+
+Calculated area for 3D sphere radius via MC, r = 1: [4.22808e+00 2.49190e-06 1.26300e-02]
+Expected volume for a 3D sphere: 4.1887902047863905
+
+Calculated area for 4D hypersphere radius via MC, r = 1: [5.00176e+00 2.14880e-06 2.34500e-02]
+Expected volume of a 4D hypersphere: 4.934802200544679
+
+Calculated area for 5D hypersphere radius via MC, r = 1: [5.32768e+00 1.38770e-06 3.77000e-02]
+Expected volume of a 5D hypersphere:5.263789013914324
+
+Time taken for calculation on the area of a circle in each dimension = 28.82002854347229 secs
+
+Calculated area for a 2D circle via MC, r = 1: [3.15536e+00 1.66570e-06 5.16000e-03]
+Expected area for a 2D circle: 3.141592653589793
+
+Calculated area for 3D sphere radius via MC, r = 1: [4.22808e+00 2.49190e-06 1.26300e-02]
+Expected volume for a 3D sphere: 4.1887902047863905
+
+Calculated area for 4D hypersphere radius via MC, r = 1: [5.00176e+00 2.14880e-06 2.34500e-02]
+Expected volume of a 4D hypersphere: 4.934802200544679
+
+Calculated area for 5D hypersphere radius via MC, r = 1: [5.32768e+00 1.38770e-06 3.77000e-02]
+Expected volume of a 5D hypersphere:5.263789013914324
+
+Time taken for calculation on the area of a circle in each dimension = 29.87288784980774 secs
+
+Calculated area for a 2D circle via MC, r = 1: [3.15536e+00 1.66570e-06 5.16000e-03]
+Expected area for a 2D circle: 3.141592653589793
+
+Calculated area for 3D sphere radius via MC, r = 1: [4.22808e+00 2.49190e-06 1.26300e-02]
+Expected volume for a 3D sphere: 4.1887902047863905
+
+Calculated area for 4D hypersphere radius via MC, r = 1: [5.00176e+00 2.14880e-06 2.34500e-02]
+Expected volume of a 4D hypersphere: 4.934802200544679
+
+Calculated area for 5D hypersphere radius via MC, r = 1: [5.32768e+00 1.38770e-06 3.77000e-02]
+Expected volume of a 5D hypersphere:5.263789013914324
+
+Time taken for calculation on the area of a circle in each dimension = 27.41316556930542 secs
+
+Calculated area for a 2D circle via MC, r = 1: [3.15536e+00 1.66570e-06 5.16000e-03]
+Expected area for a 2D circle: 3.141592653589793
+
+Calculated area for 3D sphere radius via MC, r = 1: [4.22808e+00 2.49190e-06 1.26300e-02]
+Expected volume for a 3D sphere: 4.1887902047863905
+
+Calculated area for 4D hypersphere radius via MC, r = 1: [5.00176e+00 2.14880e-06 2.34500e-02]
+Expected volume of a 4D hypersphere: 4.934802200544679
+
+Calculated area for 5D hypersphere radius via MC, r = 1: [5.32768e+00 1.38770e-06 3.77000e-02]
+Expected volume of a 5D hypersphere:5.263789013914324
+
+Time taken for calculation on the area of a circle in each dimension = 27.732836484909058 secs
+
+Calculated area for a 2D circle via MC, r = 1: [3.15536e+00 1.66570e-06 5.16000e-03]
+Expected area for a 2D circle: 3.141592653589793
+
+Calculated area for 3D sphere radius via MC, r = 1: [4.22808e+00 2.49190e-06 1.26300e-02]
+Expected volume for a 3D sphere: 4.1887902047863905
+
+Calculated area for 4D hypersphere radius via MC, r = 1: [5.00176e+00 2.14880e-06 2.34500e-02]
+Expected volume of a 4D hypersphere: 4.934802200544679
+
+Calculated area for 5D hypersphere radius via MC, r = 1: [5.32768e+00 1.38770e-06 3.77000e-02]
+Expected volume of a 5D hypersphere:5.263789013914324
+
+Time taken for calculation on the area of a circle in each dimension = 28.132831573486328 secs
+
+Calculated area for a 2D circle via MC, r = 1: [3.15536e+00 1.66570e-06 5.16000e-03]
+Expected area for a 2D circle: 3.141592653589793
+
+Calculated area for 3D sphere radius via MC, r = 1: [4.22808e+00 2.49190e-06 1.26300e-02]
+Expected volume for a 3D sphere: 4.1887902047863905
+
+Calculated area for 4D hypersphere radius via MC, r = 1: [5.00176e+00 2.14880e-06 2.34500e-02]
+Expected volume of a 4D hypersphere: 4.934802200544679
+
+Calculated area for 5D hypersphere radius via MC, r = 1: [5.32768e+00 1.38770e-06 3.77000e-02]
+Expected volume of a 5D hypersphere:5.263789013914324
+
+Time taken for calculation on the area of a circle in each dimension = 28.15127444267273 secs
+
+Calculated area for a 2D circle via MC, r = 1: [3.15536e+00 1.66570e-06 5.16000e-03]
+Expected area for a 2D circle: 3.141592653589793
+
+Calculated area for 3D sphere radius via MC, r = 1: [4.22808e+00 2.49190e-06 1.26300e-02]
+Expected volume for a 3D sphere: 4.1887902047863905
+
+Calculated area for 4D hypersphere radius via MC, r = 1: [5.00176e+00 2.14880e-06 2.34500e-02]
+Expected volume of a 4D hypersphere: 4.934802200544679
+
+Calculated area for 5D hypersphere radius via MC, r = 1: [5.32768e+00 1.38770e-06 3.77000e-02]
+Expected volume of a 5D hypersphere:5.263789013914324
+
+Time taken for calculation on the area of a circle in each dimension = 28.335041999816895 secs
+
+Calculated area for a 2D circle via MC, r = 1: [3.15536e+00 1.66570e-06 5.16000e-03]
+Expected area for a 2D circle: 3.141592653589793
+
+Calculated area for 3D sphere radius via MC, r = 1: [4.22808e+00 2.49190e-06 1.26300e-02]
+Expected volume for a 3D sphere: 4.1887902047863905
+
+Calculated area for 4D hypersphere radius via MC, r = 1: [5.00176e+00 2.14880e-06 2.34500e-02]
+Expected volume of a 4D hypersphere: 4.934802200544679
+
+Calculated area for 5D hypersphere radius via MC, r = 1: [5.32768e+00 1.38770e-06 3.77000e-02]
+Expected volume of a 5D hypersphere:5.263789013914324
+
+Time taken for calculation on the area of a circle in each dimension = 28.979551553726196 secs
+
+Gaussian dist. σ = 0.4, μ = 3.0: Integral = 0.99404, Variance = 7.3481e-05, Error = 0.01714
+
+Gaussian dist. σ = 0.2, μ = 1.0: Integral = 1.00283, Variance = 2.3409e-05, Error = 0.00968
+
+Gaussian dist. σ = 0.5, μ = 4.0: Integral = 0.99112, Variance = 9.9921e-05, Error = 0.01999
+Time taken for Gaussian distribution calculations = 14.827976942062378 secs
+
+Gaussian dist. σ = 0.4, μ = 3.0: Integral = 0.99404, Variance = 7.3481e-05, Error = 0.01714
+
+Gaussian dist. σ = 0.2, μ = 1.0: Integral = 1.00283, Variance = 2.3409e-05, Error = 0.00968
+
+Gaussian dist. σ = 0.5, μ = 4.0: Integral = 0.99112, Variance = 9.9921e-05, Error = 0.01999
+Time taken for Gaussian distribution calculations = 14.994165658950806 secs
+
+Gaussian dist. σ = 0.4, μ = 3.0: Integral = 0.99404, Variance = 7.3481e-05, Error = 0.01714
+
+Gaussian dist. σ = 0.2, μ = 1.0: Integral = 1.00283, Variance = 2.3409e-05, Error = 0.00968
+
+Gaussian dist. σ = 0.5, μ = 4.0: Integral = 0.99112, Variance = 9.9921e-05, Error = 0.01999
+Time taken for Gaussian distribution calculations = 14.561328887939453 secs
+
+Gaussian dist. σ = 0.4, μ = 3.0: Integral = 0.99404, Variance = 7.3481e-05, Error = 0.01714
+
+Gaussian dist. σ = 0.2, μ = 1.0: Integral = 1.00283, Variance = 2.3409e-05, Error = 0.00968
+
+Gaussian dist. σ = 0.5, μ = 4.0: Integral = 0.99112, Variance = 9.9921e-05, Error = 0.01999
+Time taken for Gaussian distribution calculations = 14.915083169937134 secs
+
+Gaussian dist. σ = 0.4, μ = 3.0: Integral = 0.99404, Variance = 7.3481e-05, Error = 0.01714
+
+Gaussian dist. σ = 0.2, μ = 1.0: Integral = 1.00283, Variance = 2.3409e-05, Error = 0.00968
+
+Gaussian dist. σ = 0.5, μ = 4.0: Integral = 0.99112, Variance = 9.9921e-05, Error = 0.01999
+Time taken for Gaussian distribution calculations = 14.83927059173584 secs
+
+Gaussian dist. σ = 0.4, μ = 3.0: Integral = 0.99404, Variance = 7.3481e-05, Error = 0.01714
+
+Gaussian dist. σ = 0.2, μ = 1.0: Integral = 1.00283, Variance = 2.3409e-05, Error = 0.00968
+
+Gaussian dist. σ = 0.5, μ = 4.0: Integral = 0.99112, Variance = 9.9921e-05, Error = 0.01999
+Time taken for Gaussian distribution calculations = 15.227909088134766 secs
+
+Gaussian dist. σ = 0.4, μ = 3.0: Integral = 0.99404, Variance = 7.3481e-05, Error = 0.01714
+
+Gaussian dist. σ = 0.2, μ = 1.0: Integral = 1.00283, Variance = 2.3409e-05, Error = 0.00968
+
+Gaussian dist. σ = 0.5, μ = 4.0: Integral = 0.99112, Variance = 9.9921e-05, Error = 0.01999
+Time taken for Gaussian distribution calculations = 15.174627780914307 secs
+
+Gaussian dist. σ = 0.4, μ = 3.0: Integral = 0.99404, Variance = 7.3481e-05, Error = 0.01714
+
+Gaussian dist. σ = 0.2, μ = 1.0: Integral = 1.00283, Variance = 2.3409e-05, Error = 0.00968
+
+Gaussian dist. σ = 0.5, μ = 4.0: Integral = 0.99112, Variance = 9.9921e-05, Error = 0.01999
+Time taken for Gaussian distribution calculations = 15.776005029678345 secs
+===================================================================================
+SLURM job 11954938 ended:     Thu Mar 27 02:03:24 GMT 2025 (Unix Epoch time: 1743041004)
+This is an estimated end time using the 'date' command from node wee12.hpc.strath.ac.uk
+For accurate timings, use 'sacct -j 11954938 -X --format=Submit,Start,End,Elapsed'
+======================================================================================

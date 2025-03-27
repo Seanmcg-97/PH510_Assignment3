@@ -8,7 +8,7 @@ MIT License
 
 Copyright (c) 2025 Sean McGeoghegan
 
-See LICEnSE.txt for details
+See LICENSE.txt for details
 
 """
 
@@ -129,7 +129,7 @@ class MonteCarlo:
         # and top values of the integral in infinite/improper cases.
         a_inf, b_inf = -1, 1
 
-        # double for loop to approximately calculate the integral over a select domain. Including
+        # Double for loop to approximately calculate the integral over a select domain. Including
         # the added factors within the integral calculation
         for n in r_num:
             for i in range(d):
